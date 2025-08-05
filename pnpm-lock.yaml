@@ -13,6 +13,10 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      vscode-extension-telemetry:
+        specifier: ^0.4.5
+        version: 0.4.5
     devDependencies:
       '@changesets/cli':
         specifier: ^2.27.10
@@ -8594,6 +8598,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   space-separated-tokens@1.1.5:
     resolution: {integrity: sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==}
@@ -9437,6 +9442,11 @@ packages:
   void-elements@3.1.0:
     resolution: {integrity: sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==}
     engines: {node: '>=0.10.0'}
+
+  vscode-extension-telemetry@0.4.5:
+    resolution: {integrity: sha512-YhPiPcelqM5xyYWmD46jIcsxLYWkPZhAxlBkzqmpa218fMtTT17ERdOZVCXcs1S5AjvDHlq43yCgi8TaVQjjEg==}
+    engines: {vscode: ^1.60.0}
+    deprecated: This package has been renamed to @vscode/extension-telemetry, please update to the new name
 
   vscode-jsonrpc@8.2.0:
     resolution: {integrity: sha512-C+r0eKJUIfiDIfwJhria30+TYWPtuHJXHtI7J0YlOmKAo7ogxP20T0zxB7HZQIFhIyvoBPwWskjxrvAtfjyZfA==}
@@ -13295,7 +13305,7 @@ snapshots:
       sirv: 3.0.1
       tinyglobby: 0.2.14
       tinyrainbow: 2.0.0
-      vitest: 3.2.4(@types/debug@4.1.12)(@types/node@22.15.29)(@vitest/ui@3.2.4)(jiti@2.4.2)(jsdom@26.1.0)(lightningcss@1.30.1)(tsx@4.19.4)(yaml@2.8.0)
+      vitest: 3.2.4(@types/debug@4.1.12)(@types/node@20.17.57)(@vitest/ui@3.2.4)(jiti@2.4.2)(jsdom@26.1.0)(lightningcss@1.30.1)(tsx@4.19.4)(yaml@2.8.0)
 
   '@vitest/utils@3.2.4':
     dependencies:
@@ -19742,6 +19752,8 @@ snapshots:
       - yaml
 
   void-elements@3.1.0: {}
+
+  vscode-extension-telemetry@0.4.5: {}
 
   vscode-jsonrpc@8.2.0: {}
 
