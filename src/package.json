@@ -425,7 +425,7 @@
 		"@anthropic-ai/bedrock-sdk": "^0.10.2",
 		"@anthropic-ai/sdk": "^0.37.0",
 		"@anthropic-ai/vertex-sdk": "^0.7.0",
-		"@aws-sdk/client-bedrock-runtime": "^3.779.0",
+		"@aws-sdk/client-bedrock-runtime": "^3.894.0",
 		"@aws-sdk/credential-providers": "^3.806.0",
 		"@google/genai": "^1.0.0",
 		"@lmstudio/sdk": "^1.1.1",
